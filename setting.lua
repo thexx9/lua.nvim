@@ -1,0 +1,11 @@
+vim.o.number = true
+vim.o.showcmd = true
+vim.o.encoding = 'utf-8'
+vim.o.relativenumber = true
+vim.o.ruler = true
+vim.o.shiftwidth = 4
+vim.o.wildmenu = true
+vim.o.tabstop = 4
+vim.o.smartindent = true
+vim.o.termgiocolors = true
+vim.o.cursorline = true

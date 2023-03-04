@@ -1,0 +1,20 @@
+local G = {noremap = true ,silent = true}
+local map = vim.api.nvim_set_keymap
+
+map('n','Q',':wq<CR>',G)
+map('n',';',':',G)
+map('n','<leader>l','<C-w>l',G)
+map('n','<leader>k','<C-w>k',G)
+map('n','<leader>j','<C-w>j',G)
+map('n','<leader>h','<C-w>h',G)
+map('n','K','5k',G)
+map('n','J','5j',G)
+map('n','Y','Y$',G)
+map('v','Y','Y$',G)
+map('n','<up>',':res -5<CR>',G)
+map('n','<down>',':res +5<CR>',G)
+map('n','<left>',':vertical resize-5<CR>',G)
+map('n','<right>',':vertical resize+5<CR>',G)
+map('n','<F3>',':NvimTreeToggle<CR>',G)
+map('v','<Tab>','>gv',G)
+map('v','<S-Tab>','<gv',G)
